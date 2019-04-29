@@ -36,6 +36,7 @@ RUN pip install tqdm
 RUN pip install h5py==2.7.1
 RUN pip install boto3
 RUN pip install -U scikit-learn
+RUN pip install spacy ftfy
 # install pytorch bert
 RUN pip install pytorch-pretrained-bert==v0.6.0
 
